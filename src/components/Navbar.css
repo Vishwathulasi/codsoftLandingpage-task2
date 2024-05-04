@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    color:white;
+    align-items: center;
+    background-color: black;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+.header__left{
+    display: flex;
+    flex: 0.4;
+    justify-content: space-around;
+}
+.header__left > h3{
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 30px 0;
+}
+.header__middle{
+    flex: 0.3;
+    text-align: center;
+}
+.header__right{
+    display: flex;
+    flex: 0.09;
+    margin-left: auto;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+
